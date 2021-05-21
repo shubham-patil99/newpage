@@ -1,0 +1,628 @@
+
+*{
+    margin:0;
+    padding: 0;
+    background-color:#e8f4f6 ;
+}
+
+.full{
+    width: 100%;
+    margin: 0;
+}
+
+.main{
+    box-sizing: border-box;
+}
+
+.acco1{
+    margin:5rem;
+    background-color: white;
+}
+
+.accoh1{
+    background-color: white;
+}
+
+.acco{
+    background-color: white;
+    height:30.5rem;
+}
+
+
+.head1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.h1head{
+    color:blue;
+    font-size: 4rem;
+    
+}
+
+.phead1{
+    font-size: 1.5rem;
+}
+
+
+
+.headimg{
+    width: 80rem;
+    height: 45rem;
+    margin-left: 2rem;
+}
+
+.accop{
+    background-color: white;    
+}
+
+
+.accoimg{
+    width: 35rem;
+    height: 20rem;
+    background-color: white; 
+}
+
+.accoimgdiv{
+    float: right;
+    margin-left: 5rem;
+}
+
+.acco2{
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: white;
+}
+
+.accordion{
+    display: inline-block;
+    width: 25rem;
+}
+
+.cardh1{
+    text-align: center;
+    margin-top:4rem ;
+}
+
+.cards{
+        margin-top: 15rem;
+    }
+
+.card3{
+    width: 18rem;
+    display: inline-block;
+    margin-right: 5rem;
+    float: right;
+}    
+
+.card2{
+    width: 18rem;
+    display: inline-block;
+    margin-left: 10rem;
+}    
+
+.card1{
+    width: 18rem;
+    display: inline-block;
+    margin-left: 5rem;
+}    
+
+.contentimg{
+    width:64rem;
+    height:35rem;
+    margin:5rem;
+    background-color: white;
+}
+
+.contentp{
+    margin-right: 15rem;
+    margin-left:15rem;
+    background-color: white;
+}
+
+ .contentdiv{
+    width: 39.5rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    box-shadow: 5px 10px 14px #888888;
+    display: inline-block;
+    background-color: cornsilk;
+
+}
+
+.contentimg1{
+
+        width: 30rem;
+        height: 28rem;
+        float: right;
+        display: inline;
+        margin-right: 4.8rem;
+        background-color: white;
+
+}
+
+.accordion-button{
+    color:brown;
+    background-color: cyan;
+}
+
+.accordion-button:hover{
+    background-color: #c2bcbc;
+    transition: 0.4s;
+}
+
+.accordion-body{
+    color: darkblue;
+
+}
+
+.accordion-body:hover{
+    background-color: pink;
+    transition: 0.4s;
+}
+
+.form{
+    width: 30rem;
+    float: right;
+    margin-right: 7rem;
+    display: inline-block;
+    background-color:#e8f4f6 ;
+}
+
+.formdiv1{
+    background-color:#e8f4f6;
+}
+
+.formdiv2{
+    margin-top:10rem;
+    background-color: #e8f4f6;
+}
+
+.formdiv3{
+    width: 30rem;
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+.formp{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+
+.formh1{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+@media only screen and (max-width: 411px){
+    *{
+        margin:0;
+        padding: 0;
+        background-color:#e8f4f6 ;
+        width: 100%;
+    }
+    
+    
+    .full{
+        max-width: 100%;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
+        float: left;
+    }
+    
+    .main{
+        max-width: 100%;
+    }
+     
+    .div#___gatsby{
+        width:100%;
+    }
+    
+    .h1head{
+        width: 100%;
+        font-size: 8rem;
+        margin-left: 0rem;
+        
+     }
+
+     .head1{
+        text-align: center;
+        margin:0;
+        width: 100%;
+     }
+
+     .phead1{
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .headimg{
+        margin-top:5rem;
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .accoh1{
+        font-size: 3rem;
+        float: left;
+    }
+    
+    .acco2{
+        margin:0;
+        font-size: 1.2rem;
+        width: 100%;
+        float: left;
+    }
+
+    .accordion-button{
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    .accordion-body{
+        font-size: 1.5rem;
+    }
+    
+    .accordion{
+        margin:0;
+        width: 20rem;
+    }
+    
+    .accop{
+        margin-top: 2rem;
+        font-size: 1rem;
+        margin-left:0;
+    }
+
+    .acco{
+        margin: 0rem;
+        width: 40rem;
+        margin-left: 0px;
+    }
+
+    .cardh1{
+        margin-top: 10rem;
+        position: absolute;
+    }
+
+    .cards{
+        margin:0;
+        margin-top: 0rem;
+        
+    }
+    
+    .card1{
+        margin-left:0rem;
+        width: 4rem;
+        float: right;
+    }
+    
+    .card2{
+        margin-left:0rem;
+        width: 4rem;
+        float: right;
+    }
+    
+    .card3{
+        margin-left:5rem;
+        width: 4rem;
+        float: right;
+
+    }
+    .card-img-top{
+        width: 40rem;
+    }
+    
+    .contentimg{
+        margin: 0;
+        top:1rem;
+    
+    }
+    
+    .contentp{
+        justify-content: center;
+        margin:0;
+    }
+    
+    .contentdiv{
+        margin:0;
+        max-width: 100%;
+    }
+    
+    .contentdiv1{
+        margin:0;
+        max-width: 100%;
+    
+    }
+
+    .card-text{
+        font-size: 1.5rem;
+    }
+    
+    .contentp{
+        font-size: 1.5rem;
+    }
+
+    .contentdiv1{
+        margin-top: 2rem;
+    }
+
+    .contentimg{
+        margin-top:5rem;
+        width: 30rem;
+        height: 20rem;  
+    }
+    
+     div.acco1 div h1{
+         margin:0;
+     }
+
+     .contentimg1{
+        margin-top:5rem;
+        width: 40rem;
+        height: 20rem;
+     }
+
+     .contentdiv{
+         width:40rem;
+         margin-left: 0rem;
+     }
+
+     .accoimgdiv{
+         background-color: none;
+         margin:0;
+     }
+     .form{
+         top: 4rem;
+         margin-left: 0;
+         margin-right: 0;
+         width: 100%;
+     }
+
+     .form-control{
+         height: 5rem;
+         font-size: 2rem;
+     }
+
+     .btn{
+         width: 15rem;
+         height: 4rem;
+         font-size: 1.6rem;
+     }
+
+     .formdiv1{
+         max-width: 100%;
+         margin:0;
+     }
+
+     .formdiv2{
+        max-width: 100%;
+        margin:0;
+    }
+
+    .formdiv3{
+        max-width: 100%;
+        margin:0;
+    }
+
+    .formh1{
+        max-width: 100%;
+        font-size: 3rem;
+        margin-right: 0;
+    }
+
+    .formp{
+        max-width: 100%;
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .full{
+        width: 100%;
+        margin: 0;
+        margin-right: 0;
+        margin-left: 0;
+        float: left;
+        background-color: #e8f4f6;
+    }
+    
+    .main{
+        width: 100%;
+    }
+     
+    div#___gatsby{
+        width:100%;
+    }
+    
+    .h1head{
+        width: 100%;
+        font-size: 4rem;
+    
+     }
+
+     .phead1{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .headimg{
+        margin-top:5rem;
+        max-width: 100%;
+        max-height: 40rem;
+    }
+
+    .accoh1{
+        margin-left:0rem;
+        font-size: 2rem;
+        width: 100%;
+        float: left;
+    }
+    
+    .acco2{
+        margin:0;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .accordion-button{
+        font-size: 2rem;
+    }
+
+    .accordion-body{
+        font-size: 1.5rem;
+    }
+    
+    .accordion{
+        margin:0;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .acco{
+        margin: 0rem;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .cardh1{
+        margin-top: 10rem;
+    }
+
+    .cards{
+        margin:0;
+        margin-top: 0rem;
+        
+    }
+    
+    .card1{
+        margin-left:4rem;
+        width: 40rem;
+    }
+    
+    .card2{
+        margin-left:4rem;
+        width: 40rem;
+    }
+    
+    .card3{
+        margin-left:4rem;
+        width: 40rem;
+
+    }
+    .card-img-top{
+        width: 40rem;
+    }
+    
+    .contentimg{
+        margin: 0;
+        top:1rem;
+    
+    }
+    
+    .contentp{
+        justify-content: center;
+        margin:0;
+    }
+    
+    .contentdiv{
+        margin:0;
+        max-width: 100%;
+    }
+    
+    .contentdiv1{
+        margin:0;
+        max-width: 100%;
+    
+    }
+
+    .card-text{
+        font-size: 1.5rem;
+    }
+    
+    .contentp{
+        font-size: 1.5rem;
+    }
+
+    .contentdiv1{
+        margin-top: 2rem;
+    }
+
+    .contentimg{
+        margin-top: 2rem;
+        width:100%;
+        margin-right: 2rem;
+    }
+    
+     div.acco1 div h1{
+         margin:0;
+     }
+
+     .contentimg1{
+         max-width: 100%;
+         justify-content: center;
+     }
+
+     .contentdiv{
+         max-width: 100%;
+         margin-left: 6rem;
+     }
+
+     .accoimgdiv{
+         background-color: none;
+     }
+     .form{
+         top: 4rem;
+         margin-left: 0;
+         margin-right: 0;
+         width: 100%;
+     }
+
+     .form-control{
+         height: 5rem;
+         font-size: 2rem;
+     }
+
+     .btn{
+         width: 15rem;
+         height: 4rem;
+         font-size: 1.6rem;
+     }
+
+     .formdiv1{
+         max-width: 100%;
+         margin:0;
+     }
+
+     .formdiv2{
+        max-width: 100%;
+        margin:0;
+    }
+
+    .formdiv3{
+        max-width: 100%;
+        margin:0;
+    }
+
+    .formh1{
+        max-width: 100%;
+        font-size: 3rem;
+        margin-right: 0;
+    }
+
+    .formp{
+        max-width: 100%;
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+
+
+}

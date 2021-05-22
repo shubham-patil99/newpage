@@ -1,6 +1,6 @@
 import * as React from "react"
-import Image3 from "../images/overviewione.webp"
 import "./index.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Head = () => 
 
@@ -15,7 +15,14 @@ const Head = () =>
     <p className="phead1" >KloudLearn provides a powerful LMS for employee onboarding, training, and <br />continuous development.</p>
 </div>
 
-<img src={Image3} className="headimg" alt="" />
+<StaticImage
+      src="../images/overviewione.webp"
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="A Gatsby astronaut"
+      className="headimg"
+      
+    />
 
 </div>
 
@@ -23,3 +30,4 @@ const Head = () =>
 )
 
 export default Head
+//<img src={Image3} className="headimg" alt="" />

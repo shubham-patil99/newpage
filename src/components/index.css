@@ -5,6 +5,7 @@
     background-color:#e8f4f6 ;
 }
 
+@media only screen and (min-width: 992px){
 .full{
     width: 100%;
     margin: 0;
@@ -65,6 +66,7 @@
 
 .accoimgdiv{
     float: right;
+    background-color: white;
     margin-left: 5rem;
 }
 
@@ -196,235 +198,38 @@
     margin-left: 4rem;
 }
 
-@media only screen and (max-width: 411px){
-    *{
-        margin:0;
-        padding: 0;
-        background-color:#e8f4f6 ;
-        width: 100%;
-    }
-    
-    
-    .full{
-        max-width: 100%;
-        margin: 0;
-        margin-right: 0;
-        margin-left: 0;
-        float: left;
-    }
-    
-    .main{
-        max-width: 100%;
-    }
-     
-    .div#___gatsby{
-        width:100%;
-    }
-    
-    .h1head{
-        width: 100%;
-        font-size: 8rem;
-        margin-left: 0rem;
-        
-     }
+.contenth1{
+    margin-top:2rem;
+    margin-left: 3rem;
+    margin-right: 8rem;
+    background-color: cornsilk;
 
-     .head1{
-        text-align: center;
-        margin:0;
-        width: 100%;
-     }
-
-     .phead1{
-        width: 100%;
-        font-size: 5rem;
-    }
-
-    .headimg{
-        margin-top:5rem;
-        width: 30rem;
-        height: 20rem;
-    }
-
-    .accoh1{
-        font-size: 3rem;
-        float: left;
-    }
-    
-    .acco2{
-        margin:0;
-        font-size: 1.2rem;
-        width: 100%;
-        float: left;
-    }
-
-    .accordion-button{
-        font-size: 2rem;
-        margin-right: 2rem;
-    }
-
-    .accordion-body{
-        font-size: 1.5rem;
-    }
-    
-    .accordion{
-        margin:0;
-        width: 20rem;
-    }
-    
-    .accop{
-        margin-top: 2rem;
-        font-size: 1rem;
-        margin-left:0;
-    }
-
-    .acco{
-        margin: 0rem;
-        width: 40rem;
-        margin-left: 0px;
-    }
-
-    .cardh1{
-        margin-top: 10rem;
-        position: absolute;
-    }
-
-    .cards{
-        margin:0;
-        margin-top: 0rem;
-        
-    }
-    
-    .card1{
-        margin-left:0rem;
-        width: 4rem;
-        float: right;
-    }
-    
-    .card2{
-        margin-left:0rem;
-        width: 4rem;
-        float: right;
-    }
-    
-    .card3{
-        margin-left:5rem;
-        width: 4rem;
-        float: right;
-
-    }
-    .card-img-top{
-        width: 40rem;
-    }
-    
-    .contentimg{
-        margin: 0;
-        top:1rem;
-    
-    }
-    
-    .contentp{
-        justify-content: center;
-        margin:0;
-    }
-    
-    .contentdiv{
-        margin:0;
-        max-width: 100%;
-    }
-    
-    .contentdiv1{
-        margin:0;
-        max-width: 100%;
-    
-    }
-
-    .card-text{
-        font-size: 1.5rem;
-    }
-    
-    .contentp{
-        font-size: 1.5rem;
-    }
-
-    .contentdiv1{
-        margin-top: 2rem;
-    }
-
-    .contentimg{
-        margin-top:5rem;
-        width: 30rem;
-        height: 20rem;  
-    }
-    
-     div.acco1 div h1{
-         margin:0;
-     }
-
-     .contentimg1{
-        margin-top:5rem;
-        width: 40rem;
-        height: 20rem;
-     }
-
-     .contentdiv{
-         width:40rem;
-         margin-left: 0rem;
-     }
-
-     .accoimgdiv{
-         background-color: none;
-         margin:0;
-     }
-     .form{
-         top: 4rem;
-         margin-left: 0;
-         margin-right: 0;
-         width: 100%;
-     }
-
-     .form-control{
-         height: 5rem;
-         font-size: 2rem;
-     }
-
-     .btn{
-         width: 15rem;
-         height: 4rem;
-         font-size: 1.6rem;
-     }
-
-     .formdiv1{
-         max-width: 100%;
-         margin:0;
-     }
-
-     .formdiv2{
-        max-width: 100%;
-        margin:0;
-    }
-
-    .formdiv3{
-        max-width: 100%;
-        margin:0;
-    }
-
-    .formh1{
-        max-width: 100%;
-        font-size: 3rem;
-        margin-right: 0;
-    }
-
-    .formp{
-        max-width: 100%;
-        font-size: 1.5rem;
-        margin-right: 0;
-    }
-    
-
-    
 }
 
-@media only screen and (max-width: 768px) {
+.contentp2{
+    margin-top: 2rem;
+    margin-left:3rem;
+    margin-right: 8rem;
+    background-color: cornsilk;
+}
+
+.social1{
+    background-color: white;
+}  
+
+.social2{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: white;
+}
+
+.socialh1{
+    background-color: white;
+}
+
+}
+
+@media only screen and (max-width: 600px){
 
     .full{
         width: 100%;
@@ -446,16 +251,19 @@
     .h1head{
         width: 100%;
         font-size: 4rem;
-    
+        color: blueviolet;
+        text-align: center;
      }
 
      .phead1{
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin:1rem;
+        text-align: center;
     }
 
     .headimg{
-        margin-top:5rem;
+        margin-top:2rem;
         max-width: 100%;
         max-height: 40rem;
     }
@@ -465,20 +273,22 @@
         font-size: 2rem;
         width: 100%;
         float: left;
+        display: none;
     }
     
     .acco2{
-        margin:0;
-        font-size: 1.2rem;
+        margin:1rem;
+        font-size: 1.5rem;
         width: 100%;
     }
 
     .accordion-button{
-        font-size: 2rem;
+        font-size: 1.3rem;
+        background-color: cadetblue;
     }
 
     .accordion-body{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .accordion{
@@ -493,33 +303,34 @@
         margin-left: 0px;
     }
 
+    .accoimgdiv{
+        display: none;
+    }
+
     .cardh1{
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 
     .cards{
-        margin:0;
+        margin-left:3rem;
         margin-top: 0rem;
-        
+        position: relative;
     }
     
     .card1{
-        margin-left:4rem;
-        width: 40rem;
+        width: 30rem;
     }
     
     .card2{
-        margin-left:4rem;
-        width: 40rem;
+        width: 30rem;
     }
     
     .card3{
-        margin-left:4rem;
-        width: 40rem;
+        width: 30rem;
 
     }
     .card-img-top{
-        width: 40rem;
+        width: 30rem;
     }
     
     .contentimg{
@@ -528,14 +339,20 @@
     
     }
     
+    .socialh1{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2.2rem;
+    }
     .contentp{
-        justify-content: center;
+        text-align:  center;
         margin:0;
     }
     
     .contentdiv{
         margin:0;
         max-width: 100%;
+        display: none;
     }
     
     .contentdiv1{
@@ -568,7 +385,9 @@
 
      .contentimg1{
          max-width: 100%;
+         height: 10rem;
          justify-content: center;
+         display: none;
      }
 
      .contentdiv{
@@ -581,47 +400,32 @@
      }
      .form{
          top: 4rem;
-         margin-left: 0;
-         margin-right: 0;
-         width: 100%;
+         margin-right: 3rem;
+         margin-left: 3rem;
      }
 
      .form-control{
-         height: 5rem;
-         font-size: 2rem;
+         height: 3rem;
+         font-size: 1rem;
      }
 
      .btn{
-         width: 15rem;
-         height: 4rem;
-         font-size: 1.6rem;
+         width: 8rem;
+         height: 2rem;
+         font-size: 1rem;
      }
-
-     .formdiv1{
-         max-width: 100%;
-         margin:0;
-     }
-
-     .formdiv2{
-        max-width: 100%;
-        margin:0;
-    }
-
-    .formdiv3{
-        max-width: 100%;
-        margin:0;
-    }
 
     .formh1{
         max-width: 100%;
-        font-size: 3rem;
-        margin-right: 0;
+        font-size: 2rem;
+        text-align: center;
+        margin-top:2rem;
     }
 
     .formp{
         max-width: 100%;
-        font-size: 1.5rem;
-        margin-right: 0;
+        font-size: 1.3rem;
+        margin:2rem;
     }
 
 

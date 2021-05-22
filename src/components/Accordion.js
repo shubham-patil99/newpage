@@ -1,8 +1,8 @@
 import * as React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle"
-import Image from "../images/overviewtwoc.webp"
 import "./index.css"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Occordion = () => 
 
@@ -77,7 +77,13 @@ const Occordion = () =>
 </div>
 
 <div className="accoimgdiv">
-    <img src={Image} className="accoimg"  alt="" />
+<StaticImage
+      src="../images/overviewtwoc.webp"
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="A Gatsby astronaut"
+      className="accoimg"
+    />
 
 </div>
 </div>
@@ -87,3 +93,5 @@ const Occordion = () =>
 )
 
 export default Occordion
+
+//<img src={Image} className="accoimg"  alt="" />
